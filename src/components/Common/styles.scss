@@ -1,0 +1,23 @@
+.container {
+  background-color: #333333;
+  width: 15%;
+  height: 100vh;
+  text-align: center;
+}
+.sidebar {
+  &__list {
+    list-style: none;
+    width: 15%;
+  }
+  &__item {
+    border-bottom: 1px solid #5c5c5c;
+    padding: 6px 0px;
+    width: 100%;
+    line-height: 2;
+  }
+
+  &__item > a {
+    color: #aaaaaa;
+    text-decoration: none;
+  }
+}
